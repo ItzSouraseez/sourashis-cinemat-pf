@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en" data-type="service">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sourashis Ghosh Roy — Cinematographer & Creative Director</title>
+  <meta name="description" content="Sourashis Ghosh Roy directs and shoots films for brands, schools and YouTube channels. 19 films released in 2026." />
+  <meta name="page-type" content="service" />
+  <meta name="site-kind" content="other" />
+  <meta name="theme-color" content="#f5e9d3" />
+  <meta property="og:title" content="Sourashis Ghosh Roy — Cinematographer & Creative Director" />
+  <meta property="og:description" content="Films directed and shot by Sourashis Ghosh Roy." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='7' fill='%23e5432d'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://i.ytimg.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#story">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Iris: opens once on load -->
+  <div class="iris" aria-hidden="true"></div>
+
+  <!-- ── HUD / NAV ───────────────────────────── -->
+  <header class="hud">
+    <a href="#top" class="brand" aria-label="Sourashis — back to top">
+      <span class="tally" aria-hidden="true"></span>
+      <span class="brand-name">Sourashis</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#story">Story</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hud-read lbl" aria-hidden="true">
+      <span class="mode">MODE <b id="mode">STBY</b></span>
+      <span id="tc">00:00:00:00</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- ── 1. HERO: rack focus over the work ───── -->
+    <section class="hero t-plum" id="top" data-mode="STBY">
+      <div class="wall" id="wall" aria-hidden="true">
+        <div class="wall-layer wall-soft"></div>
+        <div class="wash"></div>
+        <div class="dots"></div>
+        <div class="wall-layer wall-sharp halftone"></div>
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="vf" aria-hidden="true">
+        <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+      </div>
+      <div class="af-box" id="afbox" aria-hidden="true"><span></span><i class="lbl">AF</i></div>
+
+      <div class="wrap hero-body">
+        <p class="eyebrow lbl">Cinematographer &amp; creative director</p>
+        <p class="sticker" aria-hidden="true"><span>2026</span><b>19</b><span>films</span></p>
+        <h1 class="name"><span>Sourashis</span> <span><em>Ghosh Roy</em></span></h1>
+        <div class="hero-foot">
+          <p class="lede">I direct and shoot films for brands, schools and YouTube channels. In 2026 that meant <strong>19 released films</strong> for Trackk, Polaris School of Technology and Pathshala by Nova.</p>
+          <div class="cta">
+            <a href="#work" class="btn btn-solid">Watch the films</a>
+            <a href="#contact" class="btn btn-ghost">Book a shoot</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="exposure wrap lbl" aria-hidden="true">
+        <span><b>ISO</b> 800</span>
+        <span><b>SHUTTER</b> 180°</span>
+        <span><b>IRIS</b> <i id="x-f">T22</i></span>
+        <span class="hide-s"><b>WB</b> 5600K</span>
+        <span class="hide-s"><b>FPS</b> 23.976</span>
+        <span class="hint">Move the cursor to pull focus</span>
+      </div>
+    </section>
+
+    <!-- ── 2. STORY: three acts, pinned ────────── -->
+    <section class="story" id="story" data-mode="STORY">
+      <div class="story-pin">
+        <div class="wrap story-grid">
+          <div class="story-copy">
+            <p class="lbl kicker">How a film gets made</p>
+            <h2>Brief, frame, <em>final cut.</em></h2>
+            <ol class="acts" id="acts">
+              <li class="act is-on" data-act="0">
+                <span class="lbl act-n">Act I — Direct</span>
+                <h3>The brief becomes a shot list</h3>
+                <p>A finance channel needs a topic to feel urgent; a school needs its week to feel big. I write the angle, the script beats and the boards before a camera is unpacked.</p>
+              </li>
+              <li class="act" data-act="1">
+                <span class="lbl act-n">Act II — Shoot</span>
+                <h3>Light, lens and the take</h3>
+                <p>On set I light and operate. Talking heads that hold attention for ten minutes, and event days shot run-and-gun with 300 builders in the room.</p>
+              </li>
+              <li class="act" data-act="2">
+                <span class="lbl act-n">Act III — Deliver</span>
+                <h3>Shot for the edit, out on time</h3>
+                <p>Coverage planned around the cut, so the editor has every shot the story needs and a weekly upload date holds.</p>
+              </li>
+            </ol>
+          </div>
+
+          <!-- the camera monitor -->
+          <div class="monitor story-monitor" aria-hidden="true">
+            <div class="mon-top lbl">
+              <span class="rec-dot">● <b id="act-label">BOARDS</b></span>
+              <span id="act-step">01 / 03</span>
+            </div>
+            <div class="mon-screen">
+              <!-- Act I: storyboard -->
+              <div class="layer l-board is-on">
+                <div class="board">
+                  <figure><div class="sk sk-ws"></div><figcaption class="lbl">01 · WS · Room, 300 builders</figcaption></figure>
+                  <figure><div class="sk sk-mcu"></div><figcaption class="lbl">02 · MCU · Host to lens</figcaption></figure>
+                  <figure><div class="sk sk-cu"></div><figcaption class="lbl">03 · CU · Hands on keys</figcaption></figure>
+                </div>
+              </div>
+              <!-- Act II: viewfinder over a real frame -->
+              <div class="layer l-shoot">
+                <img data-src="cCnpF3TNzeA" alt="" />
+                <div class="vf-thirds"></div>
+                <div class="lock"><span></span></div>
+                <div class="hist"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="vf-read lbl"><span>T2.0</span><span>1/50</span><span>ISO 800</span><span>4K DCI</span></div>
+              </div>
+              <!-- Act III: timeline -->
+              <div class="layer l-cut">
+                <div class="viewer"><img data-src="fPUSGm86JbU" alt="" /></div>
+                <div class="timeline">
+                  <div class="track v"><span style="--w:18%" data-t="p17GmZCB__o"></span><span style="--w:26%" data-t="fPUSGm86JbU"></span><span style="--w:14%" data-t="cCnpF3TNzeA"></span><span style="--w:22%" data-t="EeEP-u539Q8"></span><span style="--w:20%" data-t="ORV0lnPtBJs"></span></div>
+                  <div class="track a"><span style="--w:100%"></span></div>
+                  <div class="playhead"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mon-bot lbl">
+              <span>A001 · C0<b id="act-clip">07</b></span>
+              <span class="prog"><i id="act-prog"></i></span>
+              <span>23.976</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 3. WORK: playback monitor + clip bin ─ -->
+    <section class="work t-teal" id="work" data-mode="PLAY">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <p class="lbl kicker">Playback · <span id="count-films">19</span> films · <span id="count-runtime">2h 30m</span></p>
+            <h2>The films</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filter films by my role">
+            <button class="chip is-on" data-f="all" aria-pressed="true">All <span></span></button>
+            <button class="chip" data-f="direct" aria-pressed="false">Directed <span></span></button>
+            <button class="chip" data-f="shoot" aria-pressed="false">Shot <span></span></button>
+            <button class="chip" data-f="edit" aria-pressed="false">Edited <span></span></button>
+          </div>
+        </div>
+
+        <div class="deck">
+          <div class="deck-main">
+            <div class="monitor play-monitor">
+              <div class="mon-top lbl">
+                <span class="rec-dot" id="pm-state">▶ <b>CUED</b></span>
+                <span id="pm-clip">CLIP 01 / 19</span>
+              </div>
+              <div class="mon-screen" id="pm-screen">
+                <img id="pm-img" alt="" />
+                <button class="big-play" id="pm-play" aria-label="Play film">
+                  <span class="tri" aria-hidden="true"></span>
+                </button>
+                <div class="pm-tc lbl" id="pm-tc" aria-hidden="true">00:09:14:00</div>
+              </div>
+            </div>
+            <div class="pm-meta">
+              <div>
+                <p class="lbl k" id="pm-sub"></p>
+                <h3 id="pm-title"></h3>
+              </div>
+              <div class="pm-side">
+                <div class="roles" id="pm-roles"></div>
+                <a class="link-yt" id="pm-yt" target="_blank" rel="noopener">Open on YouTube <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="bin">
+            <div class="bin-inner">
+              <p class="bin-head lbl"><span>Clip bin</span><span>Newest first</span></p>
+              <ol class="bin-list" id="bin"></ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 4. ABOUT: operator + credits ledger ─ -->
+    <section class="about" id="about" data-mode="INFO">
+      <div class="wrap about-grid">
+        <div class="about-copy">
+          <h2>One person on the idea <em>and the camera.</em></h2>
+          <p>I sit in the room where the film is decided and stand behind the lens when it's made. Clients get one point of view from the first call to the last frame, and nothing is lost between the brief and the shoot.</p>
+          <p>Most of my 2026 work was for Trackk, directing and shooting both of its finance channels. Around it: event films and a documentary for education brands.</p>
+        </div>
+
+        <div class="ledger">
+          <p class="lbl k ledger-head"><span>Credits ledger</span><span>2026</span></p>
+          <ul id="ledger"></ul>
+          <div class="vault">
+            <div>
+              <p class="lbl vault-tag">● Client vault</p>
+              <p>Licensed and unreleased films are screened privately.</p>
+            </div>
+            <a href="#contact" class="btn btn-ghost">Ask for a screening</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 5. CONTACT: the slate is the brief form ── -->
+    <section class="contact" id="contact" data-mode="WRAP">
+      <div class="wrap">
+        <div class="contact-head">
+          <div>
+            <h2>Film 20 <em>could be yours.</em></h2>
+          </div>
+          <p class="contact-lede">Fill in the slate and clap it. Your brief lands in my inbox and I come back with an approach for the film.</p>
+        </div>
+
+        <form class="slate" id="brief" novalidate aria-labelledby="slate-title">
+          <div class="clapper" aria-hidden="true"><i></i></div>
+          <div class="slate-body">
+            <h3 class="sr" id="slate-title">Project brief</h3>
+
+            <div class="cell c-prod">
+              <label for="f-prod">Production</label>
+              <input id="f-prod" name="production" type="text" placeholder="Your next film" autocomplete="off" required />
+              <p class="err" id="e-prod"></p>
+            </div>
+            <div class="cell c-client">
+              <label for="f-client">Brand or client</label>
+              <input id="f-client" name="client" type="text" placeholder="Company name" autocomplete="organization" />
+            </div>
+
+            <fieldset class="cell c-format">
+              <legend>Format</legend>
+              <div class="pills">
+                <label><input type="radio" name="format" value="Brand film" checked /><span>Brand film</span></label>
+                <label><input type="radio" name="format" value="YouTube series" /><span>YouTube series</span></label>
+                <label><input type="radio" name="format" value="Event film" /><span>Event film</span></label>
+                <label><input type="radio" name="format" value="Documentary" /><span>Documentary</span></label>
+                <label><input type="radio" name="format" value="Music video" /><span>Music video</span></label>
+                <label><input type="radio" name="format" value="Something else" /><span>Something else</span></label>
+              </div>
+            </fieldset>
+
+            <div class="cell c-date">
+              <span class="cell-lbl" id="l-date">Shoot date</span>
+              <input type="hidden" name="date" id="f-date" />
+              <button type="button" class="picker" id="date-btn" aria-haspopup="dialog" aria-expanded="false" aria-controls="cal" aria-labelledby="l-date date-val">
+                <span class="picker-val is-empty" id="date-val">Pick a day</span>
+                <svg class="picker-ico" viewBox="0 0 20 20" aria-hidden="true"><rect x="2.5" y="4" width="15" height="13" rx="2.5"/><path d="M2.5 8.5h15M6.5 2.5v3M13.5 2.5v3"/></svg>
+              </button>
+              <div class="pop cal" id="cal" role="dialog" aria-modal="false" aria-label="Choose a shoot date" hidden></div>
+            </div>
+            <div class="cell c-city">
+              <label for="f-city">City</label>
+              <input id="f-city" name="city" type="text" placeholder="Where we shoot" autocomplete="address-level2" />
+            </div>
+            <div class="cell c-budget">
+              <span class="cell-lbl" id="l-budget">Budget</span>
+              <input type="hidden" name="budget" id="f-budget" value="Not sure yet" />
+              <button type="button" class="picker" id="budget-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="budget-list" aria-labelledby="l-budget budget-val">
+                <span class="picker-val" id="budget-val">Not sure yet</span>
+                <svg class="picker-ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 8l5 5 5-5"/></svg>
+              </button>
+              <ul class="pop menu" id="budget-list" role="listbox" aria-labelledby="l-budget" tabindex="-1" hidden>
+                <li role="option" id="b-0" aria-selected="true">Not sure yet</li>
+                <li role="option" id="b-1" aria-selected="false">Under ₹1 lakh</li>
+                <li role="option" id="b-2" aria-selected="false">₹1–3 lakh</li>
+                <li role="option" id="b-3" aria-selected="false">₹3–10 lakh</li>
+                <li role="option" id="b-4" aria-selected="false">Over ₹10 lakh</li>
+              </ul>
+            </div>
+
+            <div class="cell c-brief">
+              <label for="f-brief">The brief</label>
+              <textarea id="f-brief" name="brief" rows="2" placeholder="What the film is for, who watches it, and anything you've already got."></textarea>
+            </div>
+
+            <div class="cell c-name">
+              <label for="f-name">Your name</label>
+              <input id="f-name" name="name" type="text" placeholder="First and last" autocomplete="name" required />
+              <p class="err" id="e-name"></p>
+            </div>
+            <div class="cell c-email">
+              <label for="f-email">Email</label>
+              <input id="f-email" name="email" type="email" placeholder="you@company.com" autocomplete="email" required />
+              <p class="err" id="e-email"></p>
+            </div>
+
+            <div class="cell c-foot">
+              <dl class="slate-meta" aria-label="Slate">
+                <div><dt>Roll</dt><dd>A020</dd></div>
+                <div><dt>Scene</dt><dd>01</dd></div>
+                <div><dt>Take</dt><dd id="take">01</dd></div>
+                <div><dt>Date</dt><dd id="slate-date">—</dd></div>
+                <div class="dop"><dt>Director / DOP</dt><dd>Sourashis Ghosh Roy</dd></div>
+              </dl>
+              <button class="btn btn-tally btn-lg" type="submit">Clap and send the brief</button>
+            </div>
+          </div>
+
+          <div class="slate-done" id="done" role="status" aria-live="polite" hidden>
+            <p class="lbl">Take <span id="done-take">01</span> · in the can</p>
+            <h3>Your brief is ready to send.</h3>
+            <p>Your email app opened with everything filled in. Press send there and it reaches me. If nothing opened, write to <a id="done-mail" href="#"></a>.</p>
+            <button type="button" class="btn btn-ghost" id="again">Edit the brief</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot t-plum">
+    <div class="wrap foot-row lbl">
+      <span>© <span id="yr"></span> Sourashis Ghosh Roy</span>
+      <span>End of reel</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
